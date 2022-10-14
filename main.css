@@ -2,12 +2,14 @@
 {
     margin: 0;
     padding: 0;
+    background-color: 'black';
 }
 
 html,
 body
 {
     overflow: hidden;
+    background-color: black;
 }
 
 .webgl
@@ -27,6 +29,19 @@ body
     color: white;
     font-family: monospace;
     font-size: xx-large;
+}
+
+h1 {
+    left: 0;
+    top: 40%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: normal;
+    line-height: 200%;
 }
 
 /*# sourceMappingURL=main.css.map*/

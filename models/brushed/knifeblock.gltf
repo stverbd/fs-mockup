@@ -1,0 +1,422 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "cookingKnife",
+            "rotation" : [
+                -0.6390225291252136,
+                0.30273789167404175,
+                -0.30273789167404175,
+                0.6390225887298584
+            ],
+            "translation" : [
+                -0.09129539132118225,
+                0.32582229375839233,
+                0.05311666429042816
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "cookingKnife.001",
+            "rotation" : [
+                -0.6390225291252136,
+                0.30273789167404175,
+                -0.30273789167404175,
+                0.6390225887298584
+            ],
+            "translation" : [
+                -0.16317684948444366,
+                0.2533361613750458,
+                0.009999999776482582
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "cookingKnife.002",
+            "rotation" : [
+                -0.6390225291252136,
+                0.30273789167404175,
+                -0.30273789167404175,
+                0.6390225887298584
+            ],
+            "translation" : [
+                -0.09129539132118225,
+                0.32582229375839233,
+                -0.0331166610121727
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2
+            ],
+            "mesh" : 1,
+            "name" : "knifeBlock"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "tmpParent"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "white",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9450980424880981,
+                    0.9490196108818054,
+                    0.9647058844566345,
+                    1
+                ]
+            }
+        },
+        {
+            "name" : "greyLight",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.843137264251709,
+                    0.9019607901573181,
+                    0.9529411792755127,
+                    1
+                ]
+            }
+        },
+        {
+            "name" : "brownDark",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6392157077789307,
+                    0.38823530077934265,
+                    0.27843138575553894,
+                    1
+                ]
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "name" : "brown",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8274509906768799,
+                    0.5647059082984924,
+                    0.40392157435417175,
+                    1
+                ]
+            }
+        },
+        {
+            "name" : "brownLight",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9764705896377563,
+                    0.772549033164978,
+                    0.5490196347236633,
+                    1
+                ]
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh cookingKnife",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 1,
+                    "material" : 0,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 1,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 5,
+                    "material" : 2,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 3,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Mesh knifeBlock",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 4,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 9,
+                    "material" : 4,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 5,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 5,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                0.3631249964237213,
+                0.009999999776482582,
+                0.04627000540494919
+            ],
+            "min" : [
+                -0.10312500596046448,
+                0.009999999776482582,
+                -0.06374403834342957
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                0.31166818737983704,
+                0.009999999776482582,
+                0.046187710016965866
+            ],
+            "min" : [
+                -0.11312499642372131,
+                0.009999999776482582,
+                -0.029142003506422043
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 33,
+            "max" : [
+                -0.11312499642372131,
+                0.020029311999678612,
+                0.06378724426031113
+            ],
+            "min" : [
+                -0.3631249964237213,
+                0,
+                -0.008391549810767174
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 51,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7,
+            "max" : [
+                -0.11312499642372131,
+                0.020029311999678612,
+                0.051085732877254486
+            ],
+            "min" : [
+                -0.3631249964237213,
+                0,
+                -0.008391549810767174
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 9,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 20,
+            "max" : [
+                -0.040284886956214905,
+                0.39346933364868164,
+                0.07310657203197479
+            ],
+            "min" : [
+                -0.2513701915740967,
+                0.2285815179347992,
+                -0.07311666011810303
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 46,
+            "max" : [
+                0.2817656695842743,
+                0.41597259044647217,
+                0.11100874841213226
+            ],
+            "min" : [
+                -0.2817656695842743,
+                0,
+                -0.11088000237941742
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 90,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 135,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 130,
+            "byteOffset" : 136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 227,
+            "byteOffset" : 268
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110,
+            "byteOffset" : 496
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 163,
+            "byteOffset" : 608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 772
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1092,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAADAgACAAAA2/3bf8BIgH/AAABAAkDAAACAQEBAA4nrQoDrRqpGgX5a6argBMZAEAeigwA5AMAAEBgxg/AEyEOAGQPowAgkwIAAMTSiQwA4gNFBgCPJ34AnghxACB7GAUAmQQAAAAA/z8AADQz070K1yM8PIyCvVK47j4OAERSQUNPAgIBAQAAAAwIAAgAAAPf9nb/ASIB/wAAAQAJAwAAAgEBAQAOA60KH1UFA1UFrSoEmVElelMQAMAfqgkAhAsAAEBsS0EAABGiJgAILgAYAACmJgAILlQTALwfKQgAIELUBADBBQAAAAD/PwAAFK7nvQrXIzw2u+68fn7ZPg4AAERSQUNPAgIBAQAAACERABEAAAf/vu/tvu8D/wKIQAH/AAABAAkDAAACAQEBAA8DpQsj0QV1EXURpQsM1aJNqvLJAs8ObYeAAQAAIgoAAIAUtWABgDlvggUA6EkpBgCYFacYAKDhAAAAQggAAID8BABCKn4CQJACAAIAgD8LQJACWgAA8GcEAAB/FgAAiGsAAADkJxUDQBBasABA7AMAAECEBIAgBQAAIKSkKAAEKQAAAIIUACxYISVEqWABABEFCP5CCkgIfwDwIwAAAAAA/z8AAIXrub4AAAAAtnwJvAAAgD4OAERSQUNPAgIBAQAAAAcDAAMAAAL/AP8BIgH/AAABAAkDAAACAQEBAA8DJQkncRslCUkSBE+FL4cULAAAAFSwAACdR8UAwAyPYgAQdikW0mAHgCAFAAAAAAAA/z8AAIXrub4AAAAAtnwJvAAAgD4OAABEUkFDTwICAQEAAAAUCgAKAAAE3/d9H/8CVUAB/wAAAQAJAwAAAgEBAQAPAwEQJ5kJNQM1IwYa0aHh9r0RqYADAIjkiak6HxKKAQACACoNAAQApzQA8JBQDAB6SKSYqhMiiWKszoeUYgBARFKFAgACACoNAEQkVygAoIikCgUAJBIr1OoEAACAqhMAAAAA/z8AAJizgL5GEWo+ML6Vvb8mWD4OAERSQUNPAgIBAQAAAC4eAB4DAQcHAQzf/6b7vn/f8n1duwD/AplAAf8AAAEACQMAAAIBAQEADwMtBCf1BuEUASAMr5+ZLym0yQSSb72B5CUAAADIUYUhAHClG4YAAAAwsAIA8nI4yyR5GZsBQLwEAABgXgKAmGReAgAyCQAAQEzGSwAASQoAAED8h3kJANBJAAAAQJICAABAmYylF4Zm8pVuGAIAGDtxdpkEAMRm+Q8AZDMAAACQzfIfAMRmACAvAQAAAAAAEMp4KZuDkryMzQAgXhJnAEBe1s0z6XhpN8ck5GXdDADIy+EMAOSl2IwmlaMKQwCgSh9YAQDib2AFAAQAu7lMBjeIgkS7mb58RH77RQGgkp0GzWQAAABiYt08X1anv/2iAAAAAAAA/z8AAJdDkL4AAAAADhXjvZdDED8O"
+        }
+    ]
+}
